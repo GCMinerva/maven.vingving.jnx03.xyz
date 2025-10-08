@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vingvingrobot</groupId>
+  <artifactId>ftc</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>VingVing Robot FTC</name>
+  <description>VingVingRobot (วิ่งๆ โรบอท) A path follower and robot management designed to revolutionize autonomous systhem in robotics including path follower movement , Servo controling , Camera color detecting</description>
+  <url>https://github.com/GCMinerva/VingVingRobot</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Chawabhon Netisingha</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/GCMinerva/VingVingRobot.git</connection>
+    <developerConnection>scm:git:ssh://github.com:GCMinerva/VingVingRobot.git</developerConnection>
+    <tag>v0.0.1</tag>
+    <url>https://github.com/GCMinerva/VingVingRobot</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.vingvingrobot</groupId>
+      <artifactId>core</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
